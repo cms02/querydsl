@@ -18,7 +18,7 @@ import static study.querydsl.entity.QTeam.team;
 
 @Repository
 public class MemberTestRepository extends Querydsl4RepositorySupport {
-    public MemberTestRepository(Class<?> domainClass) {
+    public MemberTestRepository() {
         super(Member.class);
     }
 
